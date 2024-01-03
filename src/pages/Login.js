@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 import { BASE_URL } from "../Helper/Helper";
-import image from "./images/indiraHomefinal.png";
+import image from "./images/ss-removebg-preview.png";
 const Login = () => {
   const navigate = useNavigate();
   const [staffId, setStaffId] = useState("");
@@ -84,7 +84,7 @@ const Login = () => {
         <form className="forml" onSubmit={handleLogin}>
           <div className="image">
             <div className="ind-Main-123">
-              <h1>INDIRA CLINIC</h1>
+              <h1 className="main-heading987">INDIRA CLINIC</h1>
             </div>
             <img
               loading="lazy"
@@ -95,14 +95,15 @@ const Login = () => {
           </div>
           <div className="AnotherBody">
             <div className="SignInHome">
-              <h1>Sign in</h1>
+              <h1>Log in</h1>
             </div>
 
             <div className="head2for-lk">
-              <h4> Please login to continue to your account.</h4>
+              {/* <h4> Please login to continue to your account.</h4> */}
             </div>
+            <div className="sigin-form987">
             <label className='Label1' htmlFor="username">
-              <h3>Email ID</h3>
+              <h3 className="email-654">Email ID</h3>
             </label>
             <input
               type="text"
@@ -113,7 +114,7 @@ const Login = () => {
             />
 
             <label className='Label1' htmlFor="password">
-              <h3>Password</h3>
+              <h3 className="email-654">Password</h3>
             </label>
             <div id="password" className="password-input">
               <input
@@ -123,6 +124,7 @@ const Login = () => {
                 value={formData.password}
                 onChange={handleChange}
               />
+            </div>
             </div>
 
             <p className="text-center mt-4">

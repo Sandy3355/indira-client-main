@@ -14,13 +14,22 @@
   text-align: center;
   padding: 10px;
 }
-.d7app{
-  background:url('https://s3-alpha-sig.figma.com/img/f012/c45f/579a9e08deb86684824844e2dde99dc4?Expires=1704672000&Signature=FuO4iCKFrn3mbjYv4k3w1sTRxQ8UgMcnCtgv02C8QEtMM~23S~H8EsMHGuQ~FouLzJoH2AexjctqJeu7t3cnt-YZLTkMgeVEsrkYNW98c49crAVqRE84VLvuy1xfoByBhai1gUt8frOoEePCOEhcDsPKuXm5HO430WPYPkVbvg56csUzQaEeesLu8kk5V7y7Cvq22-h0T6w06peSzs~nr~nr8~wnSGaXYbPFwbNeOQ1HeSfXSZBTpcay~EzuWfIwlKhZFKJqzCToq3I3poi~pkIPXNsguyxlNFCR7fVgVMaz430JHwnpuP6mOtXDpODjYYyNraiv~~VLqZlt4Nq9Ww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); 
+.d3355app{
+  background-image: url("https://img.freepik.com/premium-photo/hazelnut-color-abstract-bokeh-blurred-background-design-abstract-blurred-elegant-soft-naturelle-beige-bokeh-background_87555-23166.jpg?w=826");
+/* background-image: url("https://img.freepik.com/premium-vector/abstract-medical-background-dna-research-molecule-genetics-genome-dna-chain-genetic-analysis-art-concept-with-hexagons-waves-lines-dots-biotechnology-network-concept-molecule-vector_230610-713.jpg?w=1060"); */
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-
+.table-head987{
+  /* background-color: #2ef2d5; */
+  background-color: #af5e4d;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+  color:white;
+}
 
 .search-bar {
   margin-top: 10px;
@@ -82,17 +91,16 @@ background-size: cover;
 
 }
 
-.appointments-table th,
+
 .appointments-table td {
   border: 1px solid #ddd;
   padding: 8px;
-  text-align: left;
+  text-align: center;
   white-space: nowrap;
 }
 
 .appointments-table th {
-  background-color: #3498db;
-  color:black;
+  color:white;
 }
 
 
@@ -104,7 +112,8 @@ background-size: cover;
 .pagination button {
   width: 40px;
   height: 40px;
-  background-color: #3498db;
+  /* background-color: #57D496; */
+  background-color: #af5e4d;
   border-radius: 50%;
   border-color: white;
   margin: 0 5px;
@@ -112,7 +121,8 @@ background-size: cover;
 }
 
 .pagination button:hover {
-  background-color: aqua;
+  background-color: rgb(30, 165, 97);
+  color: white;
 }
 
 .pagination button[disabled] {

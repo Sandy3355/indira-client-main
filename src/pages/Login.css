@@ -5,14 +5,17 @@
   display: flex;
 }
 .AnotherBody {
-  background-image: url("./images/Image231.jpeg");
+  background-image: url("https://img.freepik.com/free-vector/soft-curve-shapes-background_1017-26675.jpg?w=1060&t=st=1704293436~exp=1704294036~hmac=629b385676f130305139a240168e00e3d339caad9654845bf8e6a5fbf871634e");
+  /* background-image: url("https://img.freepik.com/free-photo/flat-lay-rice-composition-with-copyspace_23-2148130027.jpg?w=900&t=st=1704292991~exp=1704293591~hmac=c2f10ca5aacb743638a2d8a29d387445c64aa41660b5bc1933435169e23f64c0"); */
+  /* background-image: url("https://img.freepik.com/free-photo/foam-texture_23-2147928016.jpg?size=626&ext=jpg&ga=GA1.1.1079508546.1704278387&semt=ais"); */
+  /* background-image: url('https://img.freepik.com/free-vector/healthcare-medical-background-with-cardiograph-line-plus-sign_1017-24822.jpg?w=1060&t=st=1704281082~exp=1704281682~hmac=0b42384dc11229214c5780288d99246bbc68b482d9b02cb521d57fdf1a751c50'); */
   width: 50%;
   height: 90vh;
   background-size: cover;
 }
 
 .image {
-  background-color: rgba(9, 131, 245, 0.876);
+  background-color: #af5e4d;
 
   width: 50%;
   height: 90vh;
@@ -66,7 +69,7 @@
 .body-imge123 {
   width: 400px;
   height: 68vh;
-
+  margin-top: 10px;
   margin-left: 110px;
 }
 .logininput_1 {
@@ -90,7 +93,7 @@
 
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
 
-  width: 1240px;
+  width: 1184px;
 
   height: 90vh;
   display: flex;
@@ -131,8 +134,8 @@ form span {
   margin-top: 20px;
   margin-left: 18vw;
   padding: 10px;
-  background-color: #1664da;
-  color: #070707;
+  background-color: #af5e4d;
+  color: white;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -147,8 +150,9 @@ form span {
   text-align: center;
 }
 .buttonn_13:hover {
-  background-color: #0c1258;
-  color: #f8f6f6;
+  /* background-color: #05a83c; */
+  background-color: #cc988d;
+  color: black;
 }
 .first {
   color: #eafa0a;
@@ -177,10 +181,22 @@ form span {
 .ind-Main-123 {
   text-align: center;
   margin-top: 60px;
+  color: white;
+}
+.main-heading987{
+  color: white !important;
 }
 .Label1{
   padding-left: 100px;
+  /* margin-left: 10px; */
 
+}
+.email-654{
+  margin-left: 100px;
+  color: black;
+}
+.sigin-form987{
+  display: block;
 }
 #togglePassword {
   position: absolute;

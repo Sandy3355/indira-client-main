@@ -457,7 +457,7 @@ const PrescriptionPage = () => {
         <div className="hms-vitals">
           <div className="hms-vitals-all-input">
             <div className="hms-vitals-all-input-div">
-              <div className="hms-vitals-all-input-sub-div">
+              <div className="hms-vitals-all-input-sub-div" style={{display:"flex"}}>
                 <label>BP(mmHg)</label>
                 <input
                   className="hms-inp1 hms-input-highlight"

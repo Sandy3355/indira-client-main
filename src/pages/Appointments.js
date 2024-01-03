@@ -145,7 +145,7 @@ const AppointmentsPage = () => {
 
 
 
-<div className='d7app'>
+<div className='d3355app'>
   
 <div className="appointments-header">
         <h1>Appointments</h1>
@@ -185,14 +185,14 @@ const AppointmentsPage = () => {
       <table className="appointments-table">
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>View</th>
-            <th>gender</th>
-            <th>age</th>
-            <th>bloodgroup</th>
-            <th>Date</th>
-            <th>Time</th>
+            <th className='table-head987'>ID</th>
+            <th className='table-head987'>Name</th>
+            <th className='table-head987'>View</th>
+            <th className='table-head987'>gender</th>
+            <th className='table-head987'>age</th>
+            <th className='table-head987'>bloodgroup</th>
+            <th className='table-head987'>Date</th>
+            <th className='table-head987'>Time</th>
           </tr>
         </thead>
         <tbody>
